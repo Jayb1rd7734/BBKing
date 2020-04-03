@@ -8,24 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Jay\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gr8pe\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jay\\source\\repos\\BBKing.Website\\BBKing.Website\\BBKing.Website.csproj",
+      "projectUniqueName": "C:\\Users\\gr8pe\\Source\\Repos\\BBKing\\BBKing.Website\\BBKing.Website.csproj",
       "projectName": "BBKing.Website",
-      "projectPath": "C:\\Users\\Jay\\source\\repos\\BBKing.Website\\BBKing.Website\\BBKing.Website.csproj",
-      "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jay\\source\\repos\\BBKing.Website\\BBKing.Website\\obj\\",
+      "projectPath": "C:\\Users\\gr8pe\\Source\\Repos\\BBKing\\BBKing.Website\\BBKing.Website.csproj",
+      "packagesPath": "C:\\Users\\gr8pe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gr8pe\\Source\\Repos\\BBKing\\BBKing.Website\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gr8pe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

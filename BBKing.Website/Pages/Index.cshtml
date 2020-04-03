@@ -3,37 +3,45 @@
 @{
     ViewData["Title"] = "Home page";
 }
-<head>
-    <meta charset="UTF-8" />
-    <title>Basketball King</title>
-    <style>
-        table{
-            border-collapse:collapse;
-        }
-        td, th{
-            border: 1px solid #ccc;
-            padding:6px;
-        }
-        th:empty{
-            border:0;
-        }
-    </style>
-    <script>src = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" ></script>
-    <script>
-        $(function () {
-            var col, el;
-            $("input[type=radio]").click(function () {
-                el = $(this);
-                col = el.data("col");
-                $("input[data-col=" + col + "]").prop("checked", false);
-                el.prop("checked", true);
+    <head>
+        <style>
+            body {
+                background-image: url(https://www.solidbackgrounds.com/images/2560x1600/2560x1600-eggshell-solid-color-background.jpg);
+            }
+        </style>
+        <img src="https://cdn.vox-cdn.com/thumbor/BIRQcHyEBGRI6CZUK0ib0orE4b4=/0x63:3200x1738/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19725578/TheRinger_Top25NBAPlayers_2.png" alt="Top Basketball Players">
+        <meta charset="UTF-8" />
+        <title>Basketball King</title>
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+
+            td, th {
+                border: 1px solid #ccc;
+                padding: 6px;
+            }
+
+                th:empty {
+                    border: 0;
+                }
+        </style>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" ></script>
+        <script>
+            $(function () {
+                var col, el;
+                $("input[type=radio]").click(function () {
+                    el = $(this);
+                    col = el.data("col");
+                    $("input[data-col=" + col + "]").prop("checked", false);
+                    el.prop("checked", true);
+                });
             });
-        });
-    </script>
-</head>
+        </script>
+    </head>
 
 <div class="text-center">
-    <h1 class="display-4">Basketball King</h1>
+    <h1 class="display-4">The Great Debate</h1>
 </div>
 <h1>Players</h1>
 <table class="table table-bordered">
